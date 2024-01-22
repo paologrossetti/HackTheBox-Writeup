@@ -23,29 +23,29 @@ Service detection performed. Please report any incorrect results at https://nmap
 ```
 
 
-![](keeper1.png)
+![](img/keeper1.png)
 
 Add "tickets.keeper.htb" to *hosts* file.
 
-![](keeper2.png)
+![](img/keeper2.png)
 
 "Best Practical Request Tracker" default credentials is "root:password". Source: [https://rt-wiki.bestpractical.com/wiki/RecoverRootPassword](https://rt-wiki.bestpractical.com/wiki/RecoverRootPassword).
 
-![](keeper3.png)
+![](img/keeper3.png)
 
 One ticket created is found.
 
-![](keeper4.png)
+![](img/keeper4.png)
 
 On the Lise user profile page, username and password are identified.
 
-![](keeper5.png)
+![](img/keeper5.png)
 
 I am IN.
 
-![](keeper6.png)
+![](img/keeper6.png)
 
-![](keeper12.png)
+![](img/keeper12.png)
 
 ***user.txt***: 969abc88fe586dd9892355d9953b6130
 
@@ -72,7 +72,7 @@ passcodes.kdbx:      Keepass password database 2.x KDBX
 
 "KeePassDumpFull.dmp" is a memory dump. Googling "keepass dump exploit", CVE-2023-32784 is discovered.
 
-![](keeper7.png)
+![](img/keeper7.png)
 
 From NIST, regarding CVE-2023-32784: "*In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. "
 
@@ -103,19 +103,19 @@ Unknown characters are displayed as "●"
 Combined: ●{ø, Ï, ,, l, `, -, ', ], §, A, I, :, =, _, c, M}dgrød med fløde
 ```
 
-![](keeper8.png)
+![](img/keeper8.png)
 
 Exploit seem to extract a strange string: `●{...}dgrød med fløde`. With a google search it was possible get a meaningful string.
 
-![](keeper9.png)
+![](img/keeper9.png)
 
 "rødgrød med fløde" string could be the master password. I am in.
 
-![](keeper10.png)
+![](img/keeper10.png)
 
 Inside database, root's credentials is found.
 
-![](keeper11.png)
+![](img/keeper11.png)
 
 Root's password, i.e. `F4><3K0nd!`, not working for escalate privilege to root. In the entry notes, however, there is an SSH private key in PuTTY version. The goal then is to convert the SSH PuTTY key to an OpenSSH one. The following discussion followed: [https://superuser.com/questions/232362/how-to-convert-ppk-key-to-openssh-key-under-linux](https://superuser.com/questions/232362/how-to-convert-ppk-key-to-openssh-key-under-linux).
 
@@ -184,8 +184,8 @@ $ chmod 400 id_rsa
 
 It is accessed in SSH with root user and newly generated SSH private key.
 
-![](keeper13.png)
+![](img/keeper13.png)
 
-![](keeper14.png)
+![](img/keeper14.png)
 
 ***root.txt***: d69a36f66da1d700aa812d3dcf45762b
