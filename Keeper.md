@@ -74,7 +74,7 @@ passcodes.kdbx:      Keepass password database 2.x KDBX
 
 ![](img/keeper7.png)
 
-From NIST, regarding CVE-2023-32784: "*In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. "
+From NIST, regarding CVE-2023-32784: "*In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running*".
 
 To try to dump master password, the following Github's repository is cloned: [https://github.com/vdohney/keepass-password-dumper](https://github.com/vdohney/keepass-password-dumper). After repository is cloned, the usage is very simple (from Windows host):  `dotnet run PATH_TO_DUMP`.
 
