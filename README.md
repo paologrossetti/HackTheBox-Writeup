@@ -4,6 +4,7 @@
 
 - [Keeper - Linux - Easy](./Keeper.md)
 - [CozyHosting - Linux - Easy](./CozyHosting.md)
+- [Devvortex - Linux - Easy](./Devvortex.md)
 
 # Challenges
 
