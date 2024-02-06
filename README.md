@@ -7,6 +7,7 @@
 - [Devvortex - Linux - Easy](./Devvortex.md)
 - [Analytics - Linux - Easy](./Analytics.md)
 - [Codify - Linux - Easy](./Codify.md)
+- [Bizness - Linux - Easy](./Bizness.md)
 
 # Challenges
 
