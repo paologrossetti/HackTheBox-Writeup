@@ -8,6 +8,7 @@
 - [Analytics - Linux - Easy](./Analytics.md)
 - [Codify - Linux - Easy](./Codify.md)
 - [Bizness - Linux - Easy](./Bizness.md)
+- [Surveillance - Linux - Easy](./Surveillance.md)
 
 # Challenges
 
