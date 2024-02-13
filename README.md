@@ -8,7 +8,8 @@
 - [Analytics - Linux - Easy](./Analytics.md)
 - [Codify - Linux - Easy](./Codify.md)
 - [Bizness - Linux - Easy](./Bizness.md)
-- [Surveillance - Linux - Easy](./Surveillance.md)
+- [Surveillance - Linux - Medium](./Surveillance.md)
+- [Hospital - Windows - Medium](./Hospital.md)
 
 # Challenges
 
