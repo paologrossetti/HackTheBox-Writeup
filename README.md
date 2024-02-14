@@ -10,6 +10,7 @@
 - [Bizness - Linux - Easy](./Bizness.md)
 - [Surveillance - Linux - Medium](./Surveillance.md)
 - [Hospital - Windows - Medium](./Hospital.md)
+- [Manager - Windows - Medium](./Manager.md)
 
 # Challenges
 
