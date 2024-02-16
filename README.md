@@ -11,6 +11,7 @@
 - [Surveillance - Linux - Medium](./Surveillance.md)
 - [Hospital - Windows - Medium](./Hospital.md)
 - [Manager - Windows - Medium](./Manager.md)
+- [Visual - Windows - Medium](./Visual.md)
 
 # Challenges
 
