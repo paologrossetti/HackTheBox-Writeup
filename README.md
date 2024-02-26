@@ -13,6 +13,7 @@
 - [Manager - Windows - Medium](./Manager.md)
 - [Visual - Windows - Medium](./Visual.md)
 - [Pov - Windows - Medium](./Pov.md)
+- [Monitored - Linux - Medium](./Monitored.md)
 
 # Challenges
 
