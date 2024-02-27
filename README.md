@@ -14,6 +14,7 @@
 - [Visual - Windows - Medium](./Visual.md)
 - [Pov - Windows - Medium](./Pov.md)
 - [Monitored - Linux - Medium](./Monitored.md)
+- [Crafty - Windows - Easy](./Crafty.md)
 
 # Challenges
 
