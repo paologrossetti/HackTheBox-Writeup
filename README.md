@@ -16,6 +16,7 @@
 - [Monitored - Linux - Medium](./Monitored.md)
 - [Crafty - Windows - Easy](./Crafty.md)
 - [Jab - Windows - Medium](./Jab.md)
+- [Perfection - Linux - Easy](./Perfection.md)
 
 # Challenges
 
